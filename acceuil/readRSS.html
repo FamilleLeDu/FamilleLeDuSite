@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>M&eacute;t&eacute;o</title>
+
+
+<!--meta http-equiv="Refresh" content="5"-->
+  <meta http-equiv="Pragma" content="no-cache">
+
+  <script language="JavaScript">
+<!--
+
+function importXML(URI)
+{
+	if (document.implementation && document.implementation.createDocument)
+	{
+		xmlDoc = document.implementation.createDocument("", "", null);
+		xmlDoc.onload = formatRSS;
+	}
+	else if (window.ActiveXObject)
+	{
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+		xmlDoc.onreadystatechange = function () {
+			if (xmlDoc.readyState == 4) formatRSS()
+		};
+ 	}
+	else
+	{
+                document.write('Bultin meteo non disponible');
+		return;
+	}
+
+        document.writeln('Lecture du flux '+ URI + '<br>');
+	xmlDoc.load(URI);
+}
+
+ 
+
+ 
+
+  
+   function formatRSS() { 
+
+  var rootElement = xmlDoc.documentElement;
+
+  document.writeln("<p>Root Element:" + rootElement.nodeName);
+  document.writeln("<p>Root Node Children:<p><ul>");
+  for(var i = 0; i < rootElement.childNodes.length; i++)  {
+     var node = rootElement.childNodes.item( i );
+     document.writeln("<li>" + node.nodeName + "</li>");
+     document.writeln("<ul>");
+     for (var n=0; n < node.childNodes.length; n++) 
+	 {
+        var cNode = node.childNodes.item(n);
+        document.writeln("<li>" + cNode.nodeName  + "</li>");
+        cNode.nodeName != "stock"
+          var value = cNode.firstChild;
+      }
+     document.writeln("</ul>");
+
+
+
+} 
+
+
+// -->
+  </script>
+
+</head>
+
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" alink="#000099" link="#000000" vlink="#000000">
+
+<div id="myDiv">   </div>
+
+<script language="JavaScript" src="http://convert.rss-to-javascript.com/?desc=1&src=http%3A%2F%2Fmeteo.msn.com%2Frss.aspx%3Fwealocations%3Dwc%3A8557254%26weadegreetype%3DC%26culture%3Dfr-FR">
+</script><noscript>Your browser does not support JavaScript. 
+
+
+
+<ul> 
+<script language="JavaScript"> 
+   importXML("exemple.xml"); 
+    </script> 
+</ul> 
+
+
+
+</body>
+</html>

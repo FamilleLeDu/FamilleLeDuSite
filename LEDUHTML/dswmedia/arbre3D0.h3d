@@ -1,0 +1,150 @@
+code:X:Y:Z:NumeroGeneration:CodePere:CodeMere:nom:prenom:sexe:date de naissance:deces:profession:NbConjoints:liste conjoints:NbEnfants:Fichier Image
+;119;1500;0;0;5;117;165;LE DÛ;Thomas;M;Naissance : 5 mai 1994;Décès : 22/11/1994;;0;;0;
+;117;700;200;0;4;113;178;LE DÛ;Philippe,François,Jacques;M;Naissance : 12 août 1967;;;1;165;6;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2397\Le_Du_Philippe.jpg
+;165;2300;200;0;4;163;207;PIMONT;Virginie;F;Naissance : 6 novembre 1966;;Sage -Femme;1;117;6;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2363\Pimont_Virginie.jpg
+;103;1500;0;200;5;117;165;LE DÛ;Camille;F;Naissance : 22 août 1992;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2369\Le_Du_Camille.jpg
+;104;1500;0;400;5;117;165;LE DÛ;Charlotte;F;Naissance : 30 août 1995;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2367\Le_Du_Charlotte.jpg
+;105;1500;0;600;5;117;165;LE DÛ;François;M;Naissance : 10 avril 1988;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2499\Le_Du_Francois.jpg
+;116;1500;0;800;5;117;165;LE DÛ;Nathan;M;Naissance : 13 juin 2002;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2365\Le_Du_Nathan.jpg
+;3188;1500;0;1000;5;117;165;LE DÛ;Noé Gabriel Raphaël Mathieu;M;Naissance : 19/11/2006;Décès : 19/11/2006;;0;;0;
+;163;1900;400;0;3;798;802;PIMONT;Joel;M;Naissance : 19/8/1943;;vidéo-reportage et pub;1;207;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2569\Pimont_joel.jpg
+;207;2700;400;0;3;1094;1090;VIVIEN;Margaret;F;Naissance : 14/3/1945;;INFO ET PUBLICITE JOURNAL 76;1;163;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2417\Vivien_Margaret.jpg
+;162;2300;200;1200;4;163;207;PIMONT;Ingrid;F;Naissance : 29/8/1969;;Gestion Assurances;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2419\Pimont_Ingrid.jpg
+;164;2300;200;1400;4;163;207;PIMONT;Olivier;M;Naissance : 4/9/1968;;Photographe;1;786;1;
+;786;700;200;1400;4;0;0;BARBIER;Sophie;F;;;Dessinatrice;1;164;1;
+;783;1500;0;1400;5;164;786;PIMONT;Lucie;F;Naissance : 19/10/1999;;;0;;0;
+;788;2300;200;1600;4;163;207;PIMONT;Stéphanie;F;Naissance : 13/12/1974;;;1;791;2;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2421\Pimont_Stephanie.jpg
+;791;700;200;1600;4;0;0;JEAN;Cédric;M;Naissance : 10/1974;;;1;788;2;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2423\Jean_Cedric.jpg
+;794;1500;0;1600;5;791;788;JEAN;Juliette;F;Naissance : 19/2/2004;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2425\Jean_Juliette.jpg
+;4151;1500;0;1800;5;791;788;JEAN;Joséphine;F;Naissance : 1/8/2007;;;0;;0;
+;1094;2500;600;0;2;1171;1176;VIVIEN;Raymond Maurice Lucien;M;Naissance : 11/8/1926;Décès : 21/8/1987;Mécanisien automobile;1;1090;4;
+;1090;2900;600;0;2;1100;1099;PATIN;Rosa Hélène Albertine;F;Naissance : 17/7/1923;Décès : 3/11/2008;;1;1094;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2427\Patin_Rosa.jpg
+;1164;2700;400;2000;3;1094;1090;VIVIEN;Evelyne;F;Naissance : 17/4/1946;;;0;;0;
+;1166;2700;400;2200;3;1094;1090;VIVIEN;Catherine;F;Naissance : 24/6/1953;;;0;;0;
+;1168;2700;400;2400;3;1094;1090;VIVIEN;Anne;F;Naissance : 27/11/1959;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2828\Vivien_Anne.jpg
+;1100;2800;800;0;1;0;0;PATIN;Alexandre Désiré;M;Naissance : 8 mai 1878;Décès : 19/7/1951;Ouvrier Fondeur, Boulanger;1;1099;7;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4746\Patin_Alexandre.JPG
+;1099;3000;800;0;1;0;0;GUERIN;Marie Blanche Emiliènne;F;Naissance : 13/3/1881;Décès : 6/3/1948;;1;1100;7;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4750\Guerin_Marie.JPG
+;1111;2900;600;2600;2;1100;1099;PATIN;Marthe;F;Naissance : vers 1904;Décès : 1994;Vendeuse dans une imprimerie à Saint-Sever;1;1127;6;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4760\Patin_Marthe_01.jpg
+;1127;2500;600;2600;2;0;0;LELEU;Jacques;M;;;Conducteur de Tramway à Rouen;1;1111;6;
+;1130;2700;400;2600;3;1127;1111;LELEU;Jacques;M;;;;0;;0;
+;1131;2700;400;2800;3;1127;1111;LELEU;Rémy;M;;;;0;;0;
+;1132;2700;400;3000;3;1127;1111;LELEU;Claude;M;;;;0;;0;
+;1133;2700;400;3200;3;1127;1111;LELEU;Jacqueline;F;;;;0;;0;
+;1134;2700;400;3400;3;1127;1111;LELEU;Jean;M;;;;0;;0;
+;1135;2700;400;3600;3;1127;1111;LELEU;Claudine;F;;;;0;;0;
+;1114;2900;600;3800;2;1100;1099;PATIN;André;M;Naissance : 1906;Décès : 1990;Mécanicien automobile;1;1139;1;
+;1139;2500;600;3800;2;0;0;GUERIN;Fernande;F;;;;1;1114;1;
+;1137;2700;400;3800;3;1114;1139;PATIN;Jean-Pierre;M;;;;0;;0;
+;1117;2900;600;4000;2;1100;1099;PATIN;Albert;M;Naissance : 1914;Décès : 1937;;0;;2;
+;1141;2700;400;4000;3;1117;0;PATIN;Alberte;F;;;;0;;0;
+;1142;2700;400;4200;3;1117;0;PATIN;Françoise;F;;;;0;;0;
+;1120;2900;600;4400;2;1100;1099;PATIN;Alvina;F;Naissance : 4/1915;;Secrétaire aux assurances sociale à Rouen;1;1144;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4756\Patin_Alvina.JPG
+;1144;2500;600;4400;2;0;0;BERTOIS;Cordonnier Bottier Rue Alsace Lorraine À Rouen;M;;;;1;1120;4;
+;1147;2700;400;4400;3;1144;1120;BERTOIS;Agnès;F;Naissance : 1945;;;0;;0;
+;1149;2700;400;4600;3;1144;1120;BERTOIS;Joël;M;;;;0;;0;
+;1150;2700;400;4800;3;1144;1120;BERTOIS;Odile;F;;;;0;;0;
+;1151;2700;400;5000;3;1144;1120;BERTOIS;Marc;M;;;;0;;0;
+;1122;2900;600;5200;2;1100;1099;PATIN;Hélène Alice;F;Naissance : 1917;;Secrétaire aux assurances sociale à Rouen;1;1152;3;
+;1152;2500;600;5200;2;0;0;VIVIEN;Jacques;M;;;Mécanicien automobile;1;1122;3;
+;1155;2700;400;5200;3;1152;1122;VIVIEN;Françoise;F;Naissance : 1945;;;0;;0;
+;1157;2700;400;5400;3;1152;1122;VIVIEN;Jean-Jacques;M;;;Pilote de ligne;0;;0;
+;1158;2700;400;5600;3;1152;1122;VIVIEN;Anne-Marie;F;;;;0;;0;
+;1124;2900;600;5800;2;1100;1099;PATIN;Blanche;F;Naissance : 11/11/1919;;Gérante d'un magasin de teinturerie rue du générale Leclerc à Rouen;1;1160;1;
+;1160;2500;600;5800;2;0;0;THENARD;Jean;M;;;Mécanicien automobile;1;1124;1;
+;1162;2700;400;5800;3;1160;1124;THENARD;Brigitte;F;;;;0;;0;
+;1171;2400;800;0;1;0;0;VIVIEN;Almire René;M;Naissance : 28/12/1890;;garagiste, puis il travaille dans la pétro-chimie;1;1176;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4709\Vivien_Almire_Rene.jpg
+;1176;2600;800;0;1;0;0;SOURBELLE;Blanche Henriette Victorine;F;Naissance : 13/7/1895;Décès : 28/6/1969;;1;1171;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4717\Sourbelle_Blanche.jpg
+;1179;2500;600;6000;2;1171;1176;VIVIEN;Guy;M;;;;0;;0;
+;1180;2500;600;6200;2;1171;1176;VIVIEN;Jacques;M;;;;0;;0;
+;1181;2500;600;6400;2;1171;1176;VIVIEN;Josette;F;;;;0;;0;
+;798;1700;600;0;2;2407;2409;PIMONT;Hubert Marcel Emmanuel;M;Naissance : 11 mai 1912;Décès : 21 mai 1989;Assureur;1;802;1;
+;802;2100;600;0;2;807;811;MAILLARD;Marcelle;F;Naissance : 30/4/1912;Décès : 6/6/1968;Chef d'entreprise;1;798;1;
+;807;2000;800;0;1;0;0;MAILLARD;Jean;M;Naissance : 15/4/1879;Décès : 19/5/1927;Maire de Pavilly;1;811;5;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4831\Maillard_Jean.JPG
+;811;2200;800;0;1;0;0;BLANCHARD;Simone;F;Naissance : 19 mars 1879;Décès : 11/3/1962;;1;807;5;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4837\Blanchard_Simone.JPG
+;818;2100;600;6600;2;807;811;MAILLARD;Bernard;M;Naissance : 5/3/1901;;;0;;0;
+;820;2100;600;6800;2;807;811;MAILLARD;Andrée;F;Naissance : 31/10/1907;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#4829\Maillard_Andree.JPG
+;822;2100;600;7000;2;807;811;MAILLARD;Edith;F;Naissance : 21/3/1906;;;0;;0;
+;824;2100;600;7200;2;807;811;MAILLARD;Denise;F;Naissance : 4/11/1907;;;0;;0;
+;2407;1600;800;0;1;0;0;PIMONT;Jules Edouard;M;Naissance : 23/4/1873;;Huissier;1;2409;1;
+;2409;1800;800;0;1;0;0;DUHAMEL;Louise Marie Cécile;F;Naissance : 18/6/1884;;;1;2407;1;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2478\Duhamel_Louise.jpg
+;113;300;400;0;3;111;83;LE DÛ;Jean-Pierre,Léon;M;Naissance : 5 juillet 1945;;Gérant de société;2;178 3054;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#7480\Le_Du_Jean_Pierre.jpg
+;178;1100;400;0;3;172;97;SAILLARD;Joelle, Yvonne, Raymonde;F;Naissance : 23 mars 1947;;cadre commerciale assurances;2;113 142;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3155\Saillard_Joelle3.jpg
+;102;700;200;7400;4;113;178;LE DÛ;Anne, Joelle, Simone;F;Naissance : 30 mai 1966;;attachée de direction Hotellerie;1;89;1;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3157\Le_Du_Anne2.jpg
+;89;2300;200;7400;4;88;191;LAGUERRE;Jean, Marie;M;Naissance : 27 mai 1954;;Ingénieur Informaticien;1;102;1;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3153\Laguerre_Jean_Marie2.jpg
+;87;1500;0;7400;5;89;102;LAGUERRE;Guillaume;M;Naissance : 29 juin 1991;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3048\Laguerre_Guillaume.jpg
+;88;1900;400;7400;3;0;0;LAGUERRE;Maurice;M;Naissance : 1919;Décès : 1969;Artisan Electricien;1;191;1;
+;191;2700;400;7400;3;0;0;TRUFFLEY;Janine;F;Naissance : 2 mars 1921;;;1;88;1;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3050\truffley_janine.jpg
+;114;700;200;7600;4;113;178;LE DÛ;Laure, Françoise,;F;Naissance : 7 décembre 1969;;Secrétaire commerciale assurances;1;60;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2435\Le_du_laure.jpg
+;60;2300;200;7600;4;0;0;EUDE;Olivier, Daniel;M;Naissance : 20 décembre 1968;;;1;114;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2439\Eude_Olivier.jpg
+;57;1500;0;7600;5;60;114;EUDE;Laurine;F;Naissance : 5 février 2000;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2443\Eude_Laurine.jpg
+;58;1500;0;7800;5;60;114;EUDE;Margaux;F;Naissance : 11 octobre 1997;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2437\Eude_margaux.jpg
+;59;1500;0;8000;5;60;114;EUDE;Mathis, Jean;M;Naissance : 24 février 2003;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2441\Eude_Mathis.jpg
+;142;300;400;8200;3;0;0;LINGOIS;Jean, Paul, Marie-Joseph;M;Naissance : 14 novembre 1940;;Fondé de pouvoirs assurances;1;178;1;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2431\Lingois_Jean_Paul.jpg
+;143;700;200;8200;4;142;178;LINGOIS;Marie-Mathilde, Marthe, Renée;F;Naissance : 2 août 1988;;;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2433\Lingois_Marie_Mathilde.jpg
+;172;900;600;0;2;174;199;SAILLARD;Bernard, Georges, Marie;M;Naissance : 24 avril 1913;Décès : 22 avril 1972;Ajusteur, Conducteur machine à vapeur PACIFIC N°;1;97;2;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3081\Saillard_Bernard.jpg
+;97;1300;600;0;2;93;68;LANFRAY;Renée, Georgette;F;Naissance : 27 décembre 1912;Décès : 1 septembre 1977;Bobineuse en textile;1;172;2;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3091\Lanfray_Renee.jpg
+;179;1100;400;8400;3;172;97;SAILLARD;Liliane, Lucie, Renée;F;Naissance : 24 février 1936;;Infirmière chef hopital psy;1;5;2;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3087\Saillard_Liliane.jpg
+;5;300;400;8400;3;0;0;AUTRET;Robert, Pierre;M;Naissance : 27 mai 1932;Décès : 28 octobre 2001;Tourneur ajusteur;1;179;2;
+;3;700;200;8400;4;5;179;AUTRET;Astrid, Liliane;F;Naissance : 4 janvier 1963;Décès : 4 juillet 2005;;1;13;2;
+;13;2300;200;8400;4;0;0;BERTRAND;Yvon;M;Naissance : 1 janvier 1960;;;1;3;2;
+;10;1500;0;8400;5;13;3;BERTRAND;Nicolas;M;Naissance : 9 mai 1988;;;0;;0;
+;11;1500;0;8600;5;13;3;BERTRAND;Patrice;M;Naissance : 25 mars 1985;;;0;;0;
+;4;700;200;8800;4;5;179;AUTRET;Christelle, Joelle;F;Naissance : 20 janvier 1960;;;1;34;2;
+;34;2300;200;8800;4;0;0;DEBAISIEUX;Gilles;M;Naissance : 1 janvier 1960;;commercial assurances;1;4;2;
+;32;1500;0;8800;5;34;4;DEBAISIEUX;Christophe;M;Naissance : 1 novembre 1988;;;0;;0;
+;33;1500;0;9000;5;34;4;DEBAISIEUX;Erwan;M;Naissance : 1 mai 1996;;;0;;0;
+;93;1200;800;0;1;0;0;LANFRAY;Georges, Auguste,;M;Naissance : 1 septembre 1884;Décès : 1 juin 1916;Indienneur;1;68;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3105\Lanfray_Georges.jpg
+;68;1400;800;0;1;0;0;GENS;Eugénie, Victorine, Alphonsine;F;Naissance : 3 mars 1886;;Journalière;1;93;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3137\Gens_Eugenie.jpg
+;95;1300;600;9200;2;93;68;LANFRAY;Lucie, Augustine;F;Naissance : 19 septembre 1914;Décès : 12 janvier 2000;;1;86;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3112\Lanfray_Lucie2.jpg
+;86;900;600;9200;2;0;0;JOLY;Raymond;M;Naissance : 15 juin 1911;Décès : 23 mars 1997;menuisier /ébéniste;1;95;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3114\Joly_Raymond.jpg
+;98;1300;600;9400;2;93;68;LANFRAY;Yvonne;F;Naissance : 19 septembre 1907;;Bar tabac à Maromme;1;90;1;
+;90;900;600;9400;2;0;0;LANCHON;André;M;Naissance : 1909;Inhumation : 5/11/1973;Artisan Peintre;1;98;1;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3147\Lanchon_Andre.jpg
+;91;1100;400;9400;3;90;98;LANCHON;Claude;M;Naissance : 1936;Décès : 22 novembre 1995;Ingénieur chimiste;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3143\Lanchon_Claude.jpg
+;174;800;800;0;1;0;0;SAILLARD;Georges, Henri;M;Naissance : 7 juillet 1887;Décès : 18 octobre 1961;employé de tissage,aiguilleur SNCF;1;199;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3095\Saillard_Georges.jpg
+;199;1000;800;0;1;0;0;TUVEE;Marie, Eugénie;F;Naissance : 27 février 1884;Décès : 31 juillet 1976;tisseuse;1;174;4;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3120\Tuvee_Marie.jpg
+;175;900;600;9600;2;174;199;SAILLARD;Georges, Julien, Marie;M;Naissance : 21 novembre 1914;Décès : 3 novembre 1915;;0;;0;
+;181;900;600;9800;2;174;199;SAILLARD;Maurice, Georges, Alfred;M;Naissance : 9 novembre 1911;Décès : 25 novembre 1911;;0;;0;
+;185;900;600;10000;2;174;199;SAILLARD;René, Raymond, Joseph;M;Naissance : 19 juillet 1916;;;2;73 159;5;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3103\Saillard_Rene.jpg
+;73;1300;600;10000;2;0;0;GRENIER;Yvonne;F;Naissance : 1 janvier 1916;;;1;185;3;
+;176;1100;400;10000;3;185;73;SAILLARD;Gérard;M;Naissance : 1 mai 1938;;;0;;0;
+;182;1100;400;10200;3;185;73;SAILLARD;Michel;M;Naissance : 1 janvier 1939;Décès : 2000;;0;;0;
+;183;1100;400;10400;3;185;73;SAILLARD;Myriam;F;Naissance : 1 janvier 1951;;;0;;0;
+;159;1300;600;10600;2;0;0;PESANT;Françine;F;;;;1;185;2;
+;160;1100;400;10600;3;185;159;PESANT;Nicolle;F;Naissance : 1 janvier 1948;;;0;;0;
+;161;1100;400;10800;3;185;159;PESANT ( SAILLARD);Claude;M;Naissance : 1 janvier 1947;;;0;;0;
+;3054;1100;400;11000;3;3058;3060;JAOUEN;Chantal;F;Naissance : 1/6/1941;;;1;113;0;
+;3058;900;600;11000;2;3066;3068;JAOUEN;Etienne Jean Marie;M;Naissance : 25/9/1909;;;1;3060;1;
+;3060;1300;600;11000;2;3071;3073;RENOUVEL;Marguerite Berthe Augustine;F;Naissance : 14/8/1911;;;1;3058;1;
+;3071;1200;800;11000;1;0;0;RENOUVEL;Jean-Baptiste Désiré;M;;;;1;3073;1;
+;3073;1400;800;11000;1;0;0;BRIAND;Berthe Joséphine;F;;;;1;3071;1;
+;3066;800;800;11000;1;0;0;JAOUEN;Etienne;M;;;;1;3068;1;
+;3068;1000;800;11000;1;0;0;POINTEAU;Marie Rose Augustine;F;;;;1;3066;1;
+;111;100;600;0;2;115;145;LE DÛ;Jacques,Paul;M;Naissance : 21 septembre 1922;Décès : 1995;Chef de gare SNCF;1;83;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2261\Le_Du_Jacques.JPG
+;83;500;600;0;2;82;121;JOBARD;Marthe, Fernande, Florestine,Marie-Louise;F;Naissance : 20 juin 1921;;;1;111;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#3151\Marthe_Jobard2.jpg
+;107;300;400;11200;3;111;83;LE DÛ;Françoise,Simone,Martine;F;Naissance : 15 juillet 1951;;Inspectrice régional SNCF;0;;0;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2284\LE_DU_Francoise.jpg
+;110;300;400;11400;3;111;83;LE DÛ;Jacques,Jean Marc;M;Naissance : 21 décembre 1947;Décès : 8/4/2006;Commandant de marine;2;2297 2311;3;
+;2297;1100;400;11400;3;0;0;LANGLOIS;Janine;F;Naissance : 10/10/1946;;;1;110;1;
+;2300;700;200;11400;4;110;2297;LE DÛ;Virginie;F;Naissance : 3/11/1970;;;1;2303;2;
+;2303;2300;200;11400;4;0;0;STORIOLO;Fabrice;M;Naissance : 2/9/1968;;;1;2300;2;
+;2306;1500;0;11400;5;2303;2300;STORIOLO;Guillaume;M;Naissance : 15/12/1996;;;0;;0;
+;2308;1500;0;11600;5;2303;2300;STORIOLO;Nicolas;M;Naissance : 29/9/1998;;;0;;0;
+;2311;1100;400;11800;3;0;0;MOALIGOU;Isabelle;F;Naissance : 18/12/1961;;;1;110;2;
+;2314;700;200;11800;4;110;2311;LE DÛ;Pierre-Alexandre;M;Naissance : 1/6/1993;;;0;;0;
+;2316;700;200;12000;4;110;2311;LE DÛ;Diane;F;Naissance : 13 janvier 1996;;;0;;0;
+;82;400;800;0;1;0;0;JOBARD;Marc Victor Jules;M;Naissance : 18 juin 1888;Décès : 23 janvier 1957;Jardinier Horticulteur;1;121;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2106\Jobard_Marc.JPG
+;121;600;800;0;1;0;0;LEBLANC;Florestine Virginie;F;Naissance : 31 mai 1885;Décès : 20/8/1963;Gouvernante chateau Petit Jard;1;82;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2108\Leblanc_Florestine.JPG
+;80;500;600;12200;2;82;121;JOBARD;Gabrielle,Marie,Rachel;F;Naissance : 10 mai 1911;Décès : 1994;Repasseuse;1;74;0;
+;74;100;600;12200;2;0;0;GUIBE;Claude;M;;;Artisan maçon;1;80;0;
+;85;500;600;12400;2;82;121;JOBARD;Maurice Stanislas Joseph Pierre;M;Naissance : 17 mai 1922;Décès : 24/6/1998;Mécanicien, contremaitre en usine;1;2137;5;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2110\Jobard_Maurice.JPG
+;2137;100;600;12400;2;0;0;DURAND;Madeleine Marie Germaine;F;Naissance : 9/12/1919;;;1;85;5;
+;2142;300;400;12400;3;85;2137;JOBARD;Jocelyne;F;Naissance : 23/8/1947;;;0;;0;
+;2155;300;400;12600;3;85;2137;JOBARD;Marie-Joëlle;F;Naissance : 23/7/1949;;;0;;0;
+;2174;300;400;12800;3;85;2137;JOBARD;Jean-Maurice;M;Naissance : 29/8/1950;;;0;;0;
+;2194;300;400;13000;3;85;2137;JOBARD;Chantal;F;Naissance : 11/2/1953;;;0;;0;
+;2210;300;400;13200;3;85;2137;JOBARD;Bernadette Jocelyne;F;Naissance : 1/12/1958;;;0;;0;
+;115;0;800;0;1;0;0;LE DÛ;Léon Charles;M;Naissance : 8/8/1889;;Chef mécanicien Marine Marchande;1;145;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2276\Le_du_Leon_charles.jpg
+;145;200;800;0;1;0;0;MAHE;Germaine Cécile;F;Naissance : 9/2/1891;;;1;115;3;\\DISCFAMILLELEDU\Public\AUtre\Philippe\GEN\Le-du\LEDU_Heredis_13.hmw\Media\#2552\Mahe_Germaine3.jpg
+;112;100;600;13400;2;115;145;LE DÛ;Jean;M;Naissance : 3/10/1915;Décès : 6/12/2010;Officier de marine, Patron pécheur;1;2470;1;
+;2470;500;600;13400;2;0;0;ROUILLÉ;Nelly;F;Naissance : 29/7/1946;;;1;112;1;
+;703;300;400;13400;3;112;2470;LE DÛ;Patrick;M;Naissance : 1968;;Professeur de Physique-Chimie Lycée;0;;0;
+;118;100;600;13600;2;115;145;LE DÛ;Simone;F;Naissance : 1914;Décès : 1947;dame à la banque de France;0;;0;

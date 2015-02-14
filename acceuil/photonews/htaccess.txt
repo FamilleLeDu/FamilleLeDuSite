@@ -1,0 +1,4 @@
+PerlSetVar AuthFile secret/username.txt
+AuthName "Acces Restreint"
+AuthType Basic
+require valid-user

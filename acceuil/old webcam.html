@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+  
+
+
+
+  
+  <title>Web Cam</title>
+<!--meta http-equiv="Refresh" content="5"-->
+  <meta content="no-cache" http-equiv="Pragma">
+
+
+  
+  <script language="JavaScript">
+<!--
+indice = 1;
+lecture = 0;
+Jour = 6;
+Heure = 11;
+function ends()
+{ document.imgToLoad.src = "../photos/webcam.jpg?" + new Date().getTime();
+
+}
+function LecturePause()
+{
+if (lecture == 0)
+{
+lecture = 1;
+BoutonLecture.value="Pause";
+}
+else
+{
+lecture = 0;
+BoutonLecture.value="Lecture";
+}
+if (lecture == 1)
+histo();
+}
+function AnimBarreProg()
+{
+largeur = (indice/990)*176;
+if (largeur < 1)
+largeur = 1;
+if (largeur > 176)
+largeur = 180;
+document.getElementById("CellBarreProg").style.width=parseInt(largeur);
+}
+function ImgSuiv()
+{
+if (lecture == 0)
+{
+indice = indice + 1;
+if (indice > 990)
+indice = 1;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_" + indice + ".jpg?" + new Date().getTime();
+AnimBarreProg();
+}
+}
+function ImgPrec()
+{
+if (lecture == 0)
+{
+indice = indice - 1;
+if (indice < 1)
+indice = 990;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_" + indice + ".jpg?" + new Date().getTime();
+AnimBarreProg();
+}
+}
+function ImgSuivFast()
+{
+if (lecture == 0)
+{
+indice = indice + 10;
+if (indice > 990)
+indice = 1;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_" + indice + ".jpg?" + new Date().getTime();
+AnimBarreProg();
+}
+}
+function ImgPrecFast()
+{
+if (lecture == 0)
+{
+indice = indice - 10;
+if (indice < 1)
+indice = 990;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_" + indice + ".jpg?" + new Date().getTime();
+AnimBarreProg();
+}
+}
+function histo()
+{ indice = indice + 1;
+if (indice > 990)
+indice = 1;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_" + indice + ".jpg?" + new Date().getTime();
+AnimBarreProg();
+if (lecture == 1)
+setTimeout('histo()', 1000)
+}
+// -->
+  </script>
+</head>
+
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" alink="#000099" link="#000000" vlink="#000000">
+
+
+<div style="text-align: center;">
+<div style="text-align: center; font-family: Batang;">
+<table style="width: 100%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td style="text-align: center; vertical-align: middle;">
+      
+      <h1 style="text-align: center;" class="titre"><span style="color: rgb(51, 51, 255);">F</span><span style="color: rgb(255, 0, 0);">a</span><span style="color: rgb(255, 204, 51);">m</span><span style="color: rgb(51, 51, 255);">i</span><span style="color: rgb(51, 204, 0);">l</span><span style="color: rgb(255, 0, 0);">l</span><span style="color: rgb(51, 51, 255);">e</span> <span style="color: rgb(255, 0, 0);">L</span><span style="color: rgb(255, 204, 51);">e</span> <span style="color: rgb(51, 51, 255);">D</span><span style="color: rgb(51, 204, 0);">&ucirc; - </span><span style="color: rgb(51, 51, 255);">W</span><span style="color: rgb(255, 0, 0);">e</span><span style="color: rgb(51, 204, 0);">b </span><span style="color: rgb(255, 204, 51);">C</span><span style="color: rgb(51, 51, 255);">a</span><span style="color: rgb(255, 0, 0);">m</span><span style="color: rgb(51, 204, 0);"></span></h1>
+
+
+      </td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+</div>
+
+
+<table cellspacing="10%">
+
+
+  <tbody>
+
+
+    <tr align="left" valign="top">
+
+
+      <td>
+      
+      <table style="width: 100%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2">
+
+
+        <tbody>
+
+
+          <tr>
+
+
+            <td style="text-align: center;">
+            
+            <div style="margin-left: 10px;"> <a href="acceuil.html"><big><span style="color: rgb(51, 51, 255);">Accueil</span></big></a>
+            </div>
+
+
+            </td>
+
+
+            <td style="text-align: center;">
+            
+            <p><a href="../LEDUHTML/index.htm"><big><span style="color: rgb(255, 0, 0);">G&eacute;n&eacute;alogie</span></big></a></p>
+
+
+            </td>
+
+
+            <td style="text-align: center;">
+            
+            <p><a href="agenda.html"><big><span style="color: rgb(255, 203, 0);">Agenda</span></big></a></p>
+
+
+            </td>
+
+
+            <td style="text-align: center;">
+            
+            <p><a href="photos.php"><big><span style="color: rgb(51, 51, 255);">Photos</span></big></a></p>
+
+
+            </td>
+
+
+            <td style="text-align: center;">
+            
+            <p><a href="webcam.html"><big><span style="color: rgb(51, 201, 0);">Webcam</span></big></a></p>
+
+
+            </td>
+
+
+            <td style="text-align: center;">
+            
+            <p><a href="carte.html"><big><span style="color: rgb(255, 0, 0);">Plan</span></big></a></p>
+
+
+            </td>
+
+
+            <td style="text-align: center;">
+            
+            <p><a href="meteo.php"><big><span style="color: rgb(51, 51, 255);">M&eacute;t&eacute;o</span></big></a></p>
+
+
+            </td>
+
+
+            <td style="text-align: center;"> <a href="mailto:famille-le-du@wanadoo.fr"><big><span style="color: rgb(51, 201, 0);">E-mail</span></big></a>
+            </td>
+
+
+
+            <td style="text-align: center;">
+            
+            <p><a href="appartement.html"><big><span style="color: rgb(255, 203, 0);">Plessis</span></big></a></p>
+
+
+            </td>
+
+
+          </tr>
+
+
+        
+        </tbody>
+      
+      </table>
+
+
+      </td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="text-align: center;"> <big><big><big><br>
+
+
+      </big></big></big>
+      
+      <div style="text-align: left;">Si vous avez de la
+chance vous pourrez peut &ecirc;tre apercevoir l'un d'entre nous
+devant la cam&eacute;ra. L'image contient la date et l'heure de
+prise
+de vue. Une nouvelle image appara&icirc;t si &eacute;videment
+l'ordinateur est allum&eacute;, si il y a du mouvement devant la
+cam&eacute;ra et si on n'a pas arr&ecirc;t&eacute; la
+cam&eacute;ra. L'image ci-dessous est en live. Vous avez la
+possibilit&eacute; de visionner un historique des
+derni&egrave;res images prises. Il vous suffit de cliquer sur
+lecture ci-dessous. </div>
+
+
+      <br>
+
+
+      
+      <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+
+
+        <tbody>
+
+
+          <tr>
+
+
+            <td style="text-align: center; vertical-align: top;">
+            
+            <div style="text-align: center;"><span style="font-weight: bold;">Webcam Live</span> <br>
+
+
+            <img name="imgToLoad" src="../photos/webcam.jpg" onload="setTimeout('ends()', 5000)" onerror="setTimeout('ends()', 2000)" onclick="ends()" border="5" width="550"></div>
+
+
+            </td>
+
+
+            <td style="text-align: center; vertical-align: top;">
+            
+            <div style="text-align: center;"><span style="font-weight: bold;">Historique</span> <br>
+
+
+            <img name="imgHisto" src="../photos/webcam_001.jpg" border="2" height="338" width="450"> <br>
+
+
+            
+            <table name="BarreProg" height="3" width="180">
+
+
+              <tbody>
+
+
+                <tr>
+
+
+                  <td>
+                  
+                  <div id="CellBarreProg" style="width: 1px; height: 3px; background-color: black;"></div>
+
+
+                  </td>
+
+
+                </tr>
+
+
+              
+              </tbody>
+            
+            </table>
+
+
+            <input value="&lt;&lt;" name="BoutonPrecFast" onclick="javascript:ImgPrecFast()" type="button"> <input value="&lt;" name="BoutonPrec" onclick="javascript:ImgPrec()" type="button"><input value="Lecture" name="BoutonLecture" onclick="javascript:LecturePause()" type="button"><input value="&gt;" name="BoutonSuiv" onclick="javascript:ImgSuiv()" type="button"><input value="&gt;&gt;" name="BoutonSuivFast" onclick="javascript:ImgSuivFast()" type="button"><br>
+
+
+            </div>
+
+
+            <br>
+
+
+            </td>
+
+
+          </tr>
+
+
+
+
+        
+        </tbody>
+      
+      </table>
+
+
+      <br>
+
+
+      
+      <div style="text-align: left;"><span style="font-weight: bold;">Webcam en Streaming : <a href="http://88.180.102.168:9218" target="_blank">cliquez ICI</a></span></div>
+
+
+      <br>
+
+
+      </td>
+
+
+    </tr>
+
+
+  
+  </tbody><caption></caption><caption></caption>
+</table>
+
+
+<br>
+
+
+</div>
+
+
+</body>
+</html>

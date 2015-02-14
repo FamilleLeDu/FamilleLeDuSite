@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+  
+
+
+
+  
+  
+<!--meta http-equiv="Refresh" content="5"-->
+  <meta content="no-cache" http-equiv="Pragma">
+
+
+  
+  <script language="JavaScript">
+<!--
+indice = 0;
+lecture = 0;
+Jour = 6;
+Heure = 11;
+function ends()
+{ document.imgToLoad.src = "out.jpg?" + new Date().getTime();
+
+}
+function LecturePause()
+{
+if (lecture == 0)
+{
+lecture = 1;
+BoutonLecture.value="Pause";
+}
+else
+{
+lecture = 0;
+BoutonLecture.value="Lecture";
+}
+if (lecture == 1)
+histo();
+}
+function AnimBarreProg()
+{
+largeur = (indice/999)*176;
+if (largeur < 1)
+largeur = 1;
+if (largeur > 176)
+largeur = 180;
+document.getElementById("CellBarreProg").style.width=parseInt(largeur);
+}
+function ImgSuiv()
+{
+if (lecture == 0)
+{
+indice = indice + 1;
+if (indice > 999)
+indice = 0;
+if (indice < 10)
+document.imgHisto.src = "webcam/webcam_00" + indice + ".jpg";
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "webcam/webcam_0" + indice + ".jpg";
+if ( indice >= 100)
+document.imgHisto.src = "webcam/webcam_" + indice + ".jpg";
+AnimBarreProg();
+}
+}
+function ImgPrec()
+{
+if (lecture == 0)
+{
+indice = indice - 1;
+if (indice < 0)
+indice = 999;
+if (indice < 10)
+document.imgHisto.src = "webcam/webcam_00" + indice + ".jpg";
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "webcam/webcam_0" + indice + ".jpg";
+if ( indice >= 100)
+document.imgHisto.src = "webcam/webcam_" + indice + ".jpg";
+AnimBarreProg();
+}
+}
+function ImgSuivFast()
+{
+if (lecture == 0)
+{
+indice = indice + 10;
+if (indice > 999)
+indice = 0;
+if (indice < 10)
+document.imgHisto.src = "webcam/webcam_00" + indice + ".jpg";
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "webcam/webcam_0" + indice + ".jpg";
+if ( indice >= 100)
+document.imgHisto.src = "webcam/webcam_" + indice + ".jpg";
+AnimBarreProg();
+}
+}
+function ImgPrecFast()
+{
+if (lecture == 0)
+{
+indice = indice - 10;
+if (indice < 0)
+indice = 999;
+if (indice < 10)
+document.imgHisto.src = "webcam/webcam_00" + indice + ".jpg";
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "webcam/webcam_0" + indice + ".jpg";
+if ( indice >= 100)
+document.imgHisto.src = "webcam/webcam_" + indice + ".jpg";
+AnimBarreProg();
+}
+}
+function histo()
+{ indice = indice + 1;
+if (indice > 999)
+indice = 0;
+if (indice < 10)
+document.imgHisto.src = "webcam/webcam_00" + indice + ".jpg";
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "webcam/webcam_0" + indice + ".jpg";
+if ( indice >= 100)
+document.imgHisto.src = "webcam/webcam_" + indice + ".jpg";
+AnimBarreProg();
+if (lecture == 1)
+setTimeout('histo()', 1000)
+}
+// -->
+  </script>
+</head>
+
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" alink="#000099" link="#000000" vlink="#000000">
+
+
+
+      
+      <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+
+
+        <tbody>
+
+
+          <tr>
+
+
+            <td style="text-align: center; vertical-align: top;">
+            
+            <div style="text-align: center;"><span style="font-weight: bold;">Webcam Live</span> <br>
+
+
+            <img name="imgToLoad" src="out.jpg" onload="setTimeout('ends()', 60000)" onerror="setTimeout('ends()', 60000)" onclick="ends()" border="5" width="550"></div>
+
+
+            </td>
+
+
+            <td style="text-align: center; vertical-align: top;">
+            
+            <div style="text-align: center;"><span style="font-weight: bold;">Historique</span> <br>
+
+
+            <img name="imgHisto" src="webcam/webcam_000.jpg" border="2" height="338" width="450"> <br>
+
+
+            
+            <table name="BarreProg" height="3" width="180">
+
+
+              <tbody>
+
+
+                <tr>
+
+
+                  <td>
+                  
+                  <div id="CellBarreProg" style="width: 1px; height: 3px; background-color: black;"></div>
+
+
+                  </td>
+
+
+                </tr>
+
+
+              
+              </tbody>
+            
+            </table>
+
+
+            <input value="&lt;&lt;" name="BoutonPrecFast" onclick="javascript:ImgPrecFast()" type="button"> <input value="&lt;" name="BoutonPrec" onclick="javascript:ImgPrec()" type="button"><input value="Lecture" name="BoutonLecture" onclick="javascript:LecturePause()" type="button"><input value="&gt;" name="BoutonSuiv" onclick="javascript:ImgSuiv()" type="button"><input value="&gt;&gt;" name="BoutonSuivFast" onclick="javascript:ImgSuivFast()" type="button"><br>
+
+
+            </div>
+
+
+            <br>
+
+
+            </td>
+
+
+          </tr>
+
+
+
+
+        
+        </tbody>
+      
+      </table>
+
+
+
+</body>
+</html>
+ 

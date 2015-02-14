@@ -1,0 +1,6 @@
+<ASX version = "3.0">
+    <Title>Playlist</Title>
+    <Repeat>
+    <Entry><Ref href = "http://familleledu.free.fr/acceuil/3jardins.avi" /></Entry>
+    </Repeat>
+</ASX>

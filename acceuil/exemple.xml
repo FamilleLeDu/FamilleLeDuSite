@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<assignment11>
+	<stock>
+		<company>CISCO Systems</company>
+		<symbol>CSCO</symbol>
+		<shares>100</shares>
+		<cost>20.25</cost>
+		<color>red and white</color>
+	</stock>
+	<stock>
+		<company>CISCO Systems</company>
+		<symbol>CSCO</symbol>
+		<shares>100</shares>
+		<cost>20.25</cost>
+		<color>red and white</color>
+	</stock>
+	<stock>
+		<company>CISCO Systems</company>
+		<symbol>CSCO</symbol>
+		<shares>100</shares>
+		<cost>20.25</cost>
+		<color>red and white</color>
+	</stock>
+</assignment11>

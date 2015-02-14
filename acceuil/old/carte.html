@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Plan d'acc&egrave;s</title>
+
+
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA74VeNN_K6q7EZJYln8hsMRRVB5kW0LeecAhzsifW0jjvjon8wRQflrZywq_V_49pNxFdjXJLvlKHGg" type="text/javascript"></script><!--Latitude-Longitude de Bonsecours : 49.43 (49°25) 1.120 (1°7)-->
+  <script type="text/javascript">
+//<![CDATA[
+function load() {
+if (GBrowserIsCompatible()) {
+var map = new GMap2(document.getElementById("map"));
+map.setCenter(new GLatLng(49.43, 1.120), 12);
+map.addControl(new GLargeMapControl());
+map.addControl(new GMapTypeControl());
+map.addControl(new GScaleControl());
+map.addControl(new GOverviewMapControl());
+var marker = new GMarker(new GLatLng(49.4305,1.1202));
+GEvent.addListener (marker, "click", function(){marker.openInfoWindowHtml("12, Square de Bourgogne <br>76240 Bonsecours");});
+map.addOverlay(marker);
+}
+}
+//]]>
+  </script>
+</head>
+
+
+<body onload="load()" onunload="GUnload()" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" alink="#000099" link="#000000" vlink="#000000">
+
+<div style="text-align: center;">
+<table style="width: 100%; text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="2">
+
+  <tbody>
+
+    <tr>
+
+      <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 51, 153);">
+      <h1 style="text-align: center; color: rgb(255, 255, 255);" class="titre">Famille
+Le D&ucirc;</h1>
+
+      </td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+<br>
+
+<table cellspacing="20%">
+
+  <tbody>
+
+    <tr align="left" valign="top">
+
+      <td>
+      <table border="1" cellpadding="2">
+
+        <tbody>
+
+          <tr>
+
+            <td style="background-color: rgb(51, 51, 153);">
+            <h2> <span style="color: rgb(255, 255, 255);">Sommaire</span>
+            </h2>
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td>
+            <div style="margin-left: 10px;">
+            <a href="acceuil.html"><big>Accueil</big></a>
+            <p><a href="../LEDUHTML/index.htm"><big>G&eacute;n&eacute;alogie</big></a></p>
+
+            <p><a href="agenda.html"><big>Agenda</big></a></p>
+
+            <p><a href="photos.html"><big>Photos</big></a></p>
+
+            <p><a href="webcam.html"><big>Webcam</big></a></p>
+
+            <p><a href="carte.html"><big>Plan</big></a></p>
+
+            <p><a href="meteo.php"><big>M&eacute;t&eacute;o</big></a></p>
+
+            <a href="mailto:famille-le-du@wanadoo.fr"><big>E-mail</big></a></div>
+
+            </td>
+
+          </tr>
+
+        </tbody>
+      </table>
+
+      </td>
+
+      <td>
+      <div style="text-align: center;"><big><big><big>Plan
+d'acc&egrave;s<br>
+
+      </big></big></big></div>
+
+      <br>
+
+Voici un plan d'acc&egrave;s pour nous rejoindre. L'indicateur
+rouge
+vous montre l'emplacement de la maison. Vous pouver faire un zoom avant
+ou arri&egrave;re sur ce plan, vous d&eacute;placer ou passer
+sur
+l'image satellite.<br>
+
+&nbsp;<span style="font-weight: bold;"></span>
+      <div id="map" style="width: 700px; height: 400px;"></div>
+
+      </td>
+
+    </tr>
+
+  </tbody><caption></caption><caption></caption>
+</table>
+
+<br>
+
+</body>
+</html>

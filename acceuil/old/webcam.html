@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Web Cam</title>
+
+
+<!--meta http-equiv="Refresh" content="5"-->
+  <meta http-equiv="Pragma" content="no-cache">
+
+  <script language="JavaScript">
+<!--
+function ends()
+{ document.imgToLoad.src = "../photos/webcam.jpg?" + new Date().getTime();
+}
+indice = 1;
+lecture = 0;
+function LecturePause()
+{
+if (lecture == 0)
+{
+lecture = 1;
+BoutonLecture.value="Pause";
+}
+else
+{
+lecture = 0;
+BoutonLecture.value="Lecture";
+}
+if (lecture == 1)
+histo();
+}
+function ImgSuiv()
+{
+if (lecture == 0)
+{
+indice = indice + 1;
+if (indice > 120)
+indice = 1;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_000" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+}
+}
+function ImgPrec()
+{
+if (lecture == 0)
+{
+indice = indice - 1;
+if (indice < 1)
+indice = 120;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_000" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+}
+}
+function histo()
+{ indice = indice + 1;
+if (indice > 120)
+indice = 1;
+if (indice < 10)
+document.imgHisto.src = "../photos/webcam_000" + indice + ".jpg?" + new Date().getTime();
+if (indice >= 10 && indice < 100)
+document.imgHisto.src = "../photos/webcam_00" + indice + ".jpg?" + new Date().getTime();
+if ( indice >= 100)
+document.imgHisto.src = "../photos/webcam_0" + indice + ".jpg?" + new Date().getTime();
+if (lecture == 1)
+setTimeout('histo()', 1000)
+}
+// -->
+  </script>
+</head>
+
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" alink="#000099" link="#000000" vlink="#000000">
+
+<div style="text-align: center;">
+<table style="width: 100%; text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="2">
+
+  <tbody>
+
+    <tr>
+
+      <td style="text-align: center; vertical-align: middle; background-color: rgb(51, 51, 153);">
+      <h1 style="text-align: center; color: rgb(255, 255, 255);" class="titre">Famille
+Le D&ucirc;</h1>
+
+      </td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+</div>
+
+<br>
+
+<table cellspacing="20%">
+
+  <tbody>
+
+    <tr align="left" valign="top">
+
+      <td>
+      <table border="1" cellpadding="2">
+
+        <tbody>
+
+          <tr>
+
+            <td style="background-color: rgb(51, 51, 153);">
+            <h2> <span style="color: rgb(255, 255, 255);">Sommaire</span>
+            </h2>
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td>
+            <div style="margin-left: 10px;">
+            <a href="acceuil.html"><big>Accueil</big></a>
+            <p><a href="../LEDUHTML/index.htm"><big>G&eacute;n&eacute;alogie</big></a></p>
+
+            <p><a href="agenda.html"><big>Agenda</big></a></p>
+
+            <p><a href="photos.html"><big>Photos</big></a></p>
+
+            <p><a href="webcam.html"><big>Webcam</big></a></p>
+
+            <p><a href="carte.html"><big>Plan</big></a></p>
+
+            <p><a href="meteo.php"><big>M&eacute;t&eacute;o</big></a></p>
+
+            <a href="mailto:famille-le-du@wanadoo.fr"><big>E-mail</big></a></div>
+
+            </td>
+
+          </tr>
+
+        </tbody>
+      </table>
+
+      </td>
+
+      <td style="text-align: center;"> <big><big><big>Web
+Cam<br>
+
+      <br>
+
+      </big></big></big>
+      <div style="text-align: left;">Si vous avez de la
+chance vous pourrez peut &ecirc;tre apercevoir l'un d'entre nous
+devant la cam&eacute;ra. L'image contient la date et l'heure de
+prise
+de vue. Une nouvelle image appara&icirc;t si &eacute;videment
+l'ordinateur est allum&eacute;, si il y a du mouvement devant la
+cam&eacute;ra et si on n'a pas arr&ecirc;t&eacute; la
+cam&eacute;ra. L'image ci-dessous est en live.<br>
+
+      </div>
+
+      <br>
+
+      <img name="imgToLoad" src="../photos/webcam.jpg" onload="setTimeout('ends()', 5000)" onerror="setTimeout('ends()', 2000)" onclick="ends()" border="5" height="144" width="176"> <br>
+
+      <br>
+
+      <br>
+
+      <div style="text-align: left;">Vous avez la
+possibilit&eacute; de visionner un historique des
+derni&egrave;res images prises. Il vous suffit de cliquer sur
+lecture ci-dessous.<br>
+
+      </div>
+
+      <br>
+
+      <div style="text-align: center;"><img name="imgHisto" src="../photos/webcam_0001.jpg" border="2" height="144" width="176"> <br>
+
+      <input value="Lecture" name="BoutonLecture" onclick="javascript:LecturePause()" type="button"> <input value=" &lt; " name="BoutonPrec" onclick="javascript:ImgPrec()" type="button"><input value=" &gt; " name="BoutonSuiv" onclick="javascript:ImgSuiv()" type="button"><br>
+
+      </div>
+
+      </td>
+
+    </tr>
+
+  </tbody><caption></caption><caption></caption>
+</table>
+
+<br>
+
+</body>
+</html>
